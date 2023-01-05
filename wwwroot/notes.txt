@@ -1,0 +1,123 @@
+google 表單 ：https://reurl.cc/lZjKe6
+
+瀏覽器對web server發出要求 => 完整的 HTML 到瀏覽器
+<html>
+  <head>
+  <body>
+       <h1>
+
+</html>
+
+瀏覽器會有渲染引擎執行HTML與CSS
+執行完成後將結果顯示在網頁上
+整個網頁的刷新
+
+
+Ajax 對web server發出要求=> 資料的本身到Ajax
+string、xml、json
+網頁的部分內容更新
+
+
+view
+
+<table>
+  
+<tbody>
+  @foreach(var emp in Model){
+    <tr>
+       <td>@emp.id</td>
+       <td>@emp.name</td>
+       <td>30</td>
+    </tr>
+  }
+
+<tbody>
+</table>
+
+
+
+<table>
+   <thead>
+    <tr>
+     <th>
+</thead>
+<tbody>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>eric</td>
+       <td>30</td>
+    </tr>
+
+
+<tbody>
+</table>
+
+json
+[{id:1, name:eric, age:30},{id:1, name:eric, age:30},{id:1, name:eric, age:30}]
+
+xml
+<employee>
+   <id>1</id>
+   <name>eric</name>
+   <age>30</age>
+</employee>
+
+<employee>
+   <id>1</id>
+   <name>eric</name>
+   <age>30</age>
+</employee>
+
+<employee>
+   <id>1</id>
+   <name>eric</name>
+   <age>30</age>
+</employee>
+
+<employee>
+   <id>1</id>
+   <name>eric</name>
+   <age>30</age>
+</employee>
+
+HTML => 大
+XML => 中
+JSON => 小
+
+
+
